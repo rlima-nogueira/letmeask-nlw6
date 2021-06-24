@@ -1,0 +1,14 @@
+.page-not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    h1 {
+        margin-bottom: 1rem;
+        color: #835afd;
+        font: 'Poppins', sans-serif;
+        font-size: 3rem;
+    }
+}
