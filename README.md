@@ -4,8 +4,11 @@
 
 
 ## O que foi aprendido?
+- Rotas e navegação
 - Autenticação com firebase
 - Como utilizar contexto no react
+- Unsubscribe do useEffect
+- Abstraindo hooks
 
 ### Stacks utilizadas: 
 - React com typescript
