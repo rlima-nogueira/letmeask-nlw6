@@ -1,19 +1,14 @@
-import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-
-
-import { Home } from './pages/Home';
-import { NewRoom } from './pages/NewRoom';
+import  Routes  from './routes';
+import { AuthContextProvider } from './contexts/AuthContext';
 
 
 
 function App() {
+ 
   return (
-    <BrowserRouter>
-      <Route exact path="/" component={Home} />
-      <Route path="/rooms/news" component={NewRoom} />
-
-    </BrowserRouter>
+    <AuthContextProvider>
+      <Routes/>
+    </AuthContextProvider>
   );
 }
 

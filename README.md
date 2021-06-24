@@ -2,6 +2,11 @@
 
 <p>Aplicativo construído durante a Next Level Week #6, evento promovido pela RocketSeat entre os dias 21 e 25 de junho de 2021.</p>
 
+
+## O que foi aprendido?
+- Autenticação com firebase
+- Como utilizar contexto no react
+
 ### Stacks utilizadas: 
 - React com typescript
 - React router dom
