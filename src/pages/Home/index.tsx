@@ -2,16 +2,16 @@ import { useHistory } from 'react-router-dom';
 
 import { FormEvent, useState } from 'react';
 
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../../hooks/useAuth';
 
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 
-import { Button } from '../components/Button';
+import { Button } from '../../components/Button';
 
 import '../styles/auth.scss';
-import { database } from '../services/firebase';
+import { database } from '../../services/firebase';
 
 export function Home() {
     const history = useHistory();
@@ -30,6 +30,7 @@ export function Home() {
         event.preventDefault();
 
         if (roomCode === '') {
+            alert('Insert code for being redirect to the room.');
             return;
         }
 
