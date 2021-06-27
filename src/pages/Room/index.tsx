@@ -3,9 +3,9 @@ import { useState ,FormEvent, useEffect} from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Button } from '../../components/Button';
 import { RoomCode } from '../../components/RoomCode';
-import logoImg from '../assets/images/logo.svg'
+import logoImg from '../../assets/images/logo.svg'
 
-import '../styles/room.scss'
+import './styles.scss'
 import { useAuth } from '../../hooks/useAuth';
 import { database } from '../../services/firebase';
 

@@ -6,7 +6,7 @@ type QuestionProps = {
         avatar: string;
     }
 }
-export function Question ({content, author}) {
+export function Question ({content, author}: QuestionProps) {
     return (
         <div className="question">
             <p> { content} </p>
