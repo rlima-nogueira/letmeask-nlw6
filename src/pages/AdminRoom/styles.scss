@@ -1,0 +1,60 @@
+#page-room {
+    header {
+        padding: 1.5rem;
+        border-bottom: 1px solid #e2e2e2;
+        max-width: 70rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content {
+            > img {
+                max-height: 2.8rem;
+            }
+        }  
+
+        > div {
+            display: flex;
+            gap: 1rem;
+
+            button {
+                height: 3rem;
+            }
+        }
+    }
+
+    main {
+        max-width: 50rem;
+        margin: 0 auto;
+
+        .room-title {
+            margin: 2rem 0 1.5rem;
+            display: flex;
+            align-items: center;
+
+            h1 {
+                font-family: 'Poppins', sans-serif;
+                font-size: '1.5rem';
+                color: #29292e;
+            }
+
+            span {
+                margin-left: 1rem;
+                background: #e559f9;
+                border-radius: 9999px;
+                padding: 0.5rem 1rem;
+                color: #fff;
+                font-weight: 500;
+                font-size: 0.8rem;
+            }
+        }
+
+       
+
+        .question-list {
+            margin: 2rem 0;
+
+        }
+    }
+}
