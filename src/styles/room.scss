@@ -2,18 +2,17 @@
     header {
         padding: 1.5rem;
         border-bottom: 1px solid #e2e2e2;
+        max-width: 70rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .content {
-            max-width: 70rem;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
             > img {
                 max-height: 2.8rem;
             }
-        }
+        }  
     }
 
     main {
