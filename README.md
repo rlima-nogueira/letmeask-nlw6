@@ -9,6 +9,7 @@
 - Como utilizar contexto no react
 - Unsubscribe do useEffect
 - Abstraindo hooks
+- Componentização
 
 ### Stacks utilizadas: 
 - React com typescript
